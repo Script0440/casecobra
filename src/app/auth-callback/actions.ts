@@ -3,7 +3,6 @@
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { db } from "@/db";
 
-
 export const getAuthStatus = async () => {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
@@ -25,5 +24,5 @@ export const getAuthStatus = async () => {
     });
   }
 
-  return {success: true }
+  return { success: true };
 };

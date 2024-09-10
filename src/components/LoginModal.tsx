@@ -9,7 +9,6 @@ import {
 import Image from "next/image";
 import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs";
 import { buttonVariants } from "./ui/Button";
-
 const LoginModal = ({
   isOpen,
   setIsOpen,
