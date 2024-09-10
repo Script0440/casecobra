@@ -64,6 +64,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
       createPaymentSession({ configId: id });
     } else {
       // need to log in
+      console.log("Вы не авторизованы");
       localStorage.setItem("configurationId", id);
       setIsLoginModalOpen(true);
     }
