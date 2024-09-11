@@ -43,7 +43,7 @@ export function constructMetadata({
     },
     icons,
     metadataBase: new URL(
-      "https://casecobra-antagonistos-projects.vercel.app/"
+      "https://casecobra-git-master-antagonistos-projects.vercel.app/"
     ),
   };
 }
